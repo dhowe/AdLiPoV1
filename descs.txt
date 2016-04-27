@@ -1,0 +1,37 @@
+
+<p class="main">
+AdLiPo (2014) is a browser plugin that replaces advertisements with
+generated language art. Leveraging the ad-detection
+techniques of popular Ad-blocking software, AdLiPo not only blocks Ads,
+but replaces their content with calls to a Javascript language library (e.g. the RiTa library), filling the Ad space with static or kinetic text created for the
+context (based on the containing web-page, advertising-content, and
+dimensions of the Ad). 
+<br> <br>
+For the experimental writer, the AdLiPo framework presents a unique set of spatial and thematic 
+constraints for writing across the face of the browser, arguably the most
+ubiquitous interface of our time. The debut installation
+presents one realization of the AdLiPo framework, composed by the
+author, but also demonstrates (and documents) its potential as a system
+for other language artists to use in their own work. 
+</p>
+
+
+<p class="main">
+AdLiPo (2014) is a browser plugin that replaces advertisements with
+generated language art. Leveraging the Ad-detection
+techniques of popular ad-blocking software, AdLiPo not only blocks Ads,
+but replaces their content with calls to a Javascript language library (e.g. the RiTa library), filling the Ad space with static or kinetic text created for the
+context (based on the containing web-page, advertising-content, and
+dimensions of the Ad-frame). 
+<br> <br>
+For the experimental writer, the AdLiPo framework presents a unique set of spatial and thematic 
+constraints for writing across the face of the browser, arguably the most
+ubiquitous interface of our time. 
+</p>
+The debut installation presents one realization of the AdLiPo framework, composed by the
+author, but also demonstrates its potential as a system for other artists to use in their own work. 
+</p>
+In the version you see at the ELC, AdLiPo uses a Markov model in RiTa to generate the txts for its Ad replacements. The model is composed of the 'description' texts from partipicants in the conference, sprinkled liberally with quotations from Marx and the MArquis de Sade. If you look carefully (and refresh a few times on an amenable page like the New York Times), you're likely to see bits of your own description amidst the Ad copy.
+</p>
+Drop me a note [mailto: daniel@rednoise.org ]if you have an idea about using using the framework in your own work!
+

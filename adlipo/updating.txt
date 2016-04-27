@@ -1,0 +1,56 @@
+After adding the adlipo folder:
+
+manifest.json
+--------------------------------
+-- change 'name', 'version'
+-- add fonts/imgs to 'web_accessible_resources' 
+-- add adreplacer to 'content-scripts'
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "port.js",
+        "functions.js", 
+        "filtering/filteroptions.js",
+		"adlipo/adreplacer.js",
+        "adblock_start_common.js",
+        "adblock_start_chrome.js"
+      ],  
+   ...
+
+in adblock_start_chrome.js
+--------------------------------
+
+-- In elementPurger.purgeElements():
+
+  Instead of:
+    destroyElement(results[j], elType);
+
+  we do:
+  
+    adreplacer.replace(results[j], elType, true);
+
+background.js
+--------------------------------
+replace paths to images in 'setBrowserButton()'
+
+messages.json
+--------------------------------
+Global-replace: AdBlock Plus->Name
+Global-replace: Adblock Plus->Name
+Global-replace: AdBlock->Name
+Global-replace: Adblock->Name
+change 'description2'
+change path to 'icon19.png'
+
+button/popup.html
+--------------------------------
+Global-replace: AdBlock->Name
+line 18: update URL
+
+options/index.html
+--------------------------------
+replace URLs for home/help/FAQ
+
+
